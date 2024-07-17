@@ -13,6 +13,7 @@ ORDER BY a.order_line;
 
 SELECT * FROM logistics;
 
+
 CREATE OR REPLACE VIEW logistics AS
 SELECT 
 	a.order_line,
@@ -27,6 +28,7 @@ FROM sales AS a
 LEFT JOIN customers AS b
 ON a.customer_id = b.customer_id
 ORDER BY a.order_line;
+
 
 DROP VIEW logistics;
 

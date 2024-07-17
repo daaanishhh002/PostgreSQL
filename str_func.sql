@@ -1,3 +1,4 @@
+-- length
 SELECT 
 	customer_name,
 	LENGTH(customer_name) AS char_len
@@ -5,30 +6,36 @@ FROM customers
 ORDER BY char_len DESC;
 
 
+-- case
 SELECT
 	UPPER(customer_name),
 	LOWER(customer_name)
 FROM customers;
 
 
+-- replace
 SELECT
 	customer_name,
 	country,
 	REPLACE(LOWER(country),'united states','US') AS short
 FROM customers;
 
+
+-- trim
 SELECT TRIM(LEADING '  Supercars   ');
 SELECT TRIM(BOTH 's' FROM 'Supercars');
 SELECT RTRIM('Supercarsss','s');
 SELECT LTRIM('aaal is well','a');
 
 
+-- concat
 SELECT
 	customer_name,
 	city||', '||state||', '||country AS address
 FROM customers;
 
 
+-- substring
 SELECT
 	SUBSTRING(customer_id, 1, 2) AS cust_grp
 FROM customers;
@@ -46,6 +53,7 @@ SELECT
 FROM customers;
 
 
+-- row concat
 SELECT 
 	order_id,
 	STRING_AGG(product_id,', ') AS product_ids
@@ -54,7 +62,7 @@ GROUP BY order_id
 ORDER BY order_id;
 
 
-
+-- pattern match using wildcards
 SELECT * FROM customers
 WHERE customer_name LIKE 'G%';
 
@@ -65,6 +73,8 @@ SELECT customer_name
 FROM customers
 WHERE customer_name LIKE '% J____';
 
+
+-- pattern match using regex
 SELECT customer_name
 FROM customers
 WHERE customer_name ~* '^(b)[a-z]+\s(b)[a-z]+$';

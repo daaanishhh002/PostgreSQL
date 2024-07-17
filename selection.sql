@@ -4,7 +4,7 @@ FROM students;
 SELECT DISTINCT branch 
 FROM students;
 
-SELECT DISTINCT age,branch 
+SELECT DISTINCT age, branch 
 FROM students;
 
 SELECT first_name 

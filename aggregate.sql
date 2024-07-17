@@ -1,3 +1,4 @@
+-- count
 SELECT 
 	COUNT(order_line) AS "Total no. of products ordered",
 	COUNT(DISTINCT order_id) AS "Total no. of orders",
@@ -5,15 +6,21 @@ SELECT
 	COUNT(DISTINCT product_id) AS "Total no. of products"
 FROM sales;
 
+
+-- sum
 SELECT 
 	SUM(sales) AS "Sales",
 	SUM(profit) AS "Profits"
 FROM sales;
 
+
+-- average
 SELECT 
 	AVG(quantity) AS "Average sale quantity"
 FROM sales;
 
+
+-- min max
 SELECT 
 	MIN(profit) AS "Minimum profit",
 	MAX(profit) AS "Maximum profit"

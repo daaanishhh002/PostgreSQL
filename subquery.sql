@@ -1,8 +1,11 @@
+-- where
 SELECT * FROM sales
 WHERE customer_id IN
 	(SELECT customer_id
 	 FROM customers WHERE age > 60);
 
+
+-- from
 SELECT
 	a.product_id,
 	a.product_name,
@@ -18,6 +21,8 @@ LEFT JOIN
 ON a.product_id = b.product_id
 ORDER BY b.quantity DESC;
 
+
+-- select
 SELECT customer_id,
 	   order_line,
 	   (
