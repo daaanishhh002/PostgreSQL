@@ -55,6 +55,25 @@ ORDER BY order_id;
 
 
 
+SELECT * FROM customers
+WHERE customer_name LIKE 'G%';
+
+SELECT * FROM customers
+WHERE customer_name LIKE '%G%';
+
+SELECT customer_name
+FROM customers
+WHERE customer_name LIKE '% J____';
+
+SELECT customer_name
+FROM customers
+WHERE customer_name ~* '^(b)[a-z]+\s(b)[a-z]+$';
+
+SELECT customer_name FROM customers
+WHERE customer_name ~* '^(q|p|s|w|z|d|x)+[a-z\s]+$';
+
+
+
 /* Assignment */
 SELECT MAX(LENGTH(product_name)) FROM products;
 
@@ -75,3 +94,10 @@ SELECT
 FROM products
 WHERE sub_category IN ('Chairs','Tables')
 GROUP BY sub_category;
+
+
+
+/* Assignment */
+SELECT customer_name
+FROM customers
+WHERE customer_name ~* '^[a-z]{5}\s(a|b|c|d)[a-z]{4}$'
