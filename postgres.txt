@@ -1,0 +1,51 @@
+introduction to db/postgresql
+
+datatypes
+- numeric
+- strings
+- boolean
+- datetime
+- json
+- custom
+
+ddl
+- crud
+- db, table
+- constraints
+- view, index
+
+dml
+- insert
+- update
+- alter
+- delete
+
+operators
+- logic
+- update
+- rename
+
+functions
+- numeric
+- string
+- datetime
+- null
+
+dql
+- select
+- from
+-- joins
+- where
+- group by
+- having
+- order by
+- limit
+
+dcl
+- grant
+- revoke
+
+tcl
+- start
+- commit
+- rollback
