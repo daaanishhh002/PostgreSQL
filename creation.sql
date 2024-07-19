@@ -32,3 +32,13 @@ CSV HEADER;
 COPY students
 FROM [PATH]
 DELIMITER ',';
+
+
+
+-- tablespaces
+CREATE TABLESPACE NewSpace [PATH];
+
+CREATE TABLE [name]() TABLESPACE NewSpace;
+SET DEFAULT_TABLESPACE = NewSpace;
+
+SELECT * FROM pg_tablespace
