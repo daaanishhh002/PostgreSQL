@@ -1,0 +1,7 @@
+EXPLAIN SELECT * FROM customers;
+
+EXPLAIN VERBOSE
+	SELECT DISTINCT * FROM customers;
+
+
+VACUUM [table];
