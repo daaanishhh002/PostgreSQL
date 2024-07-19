@@ -20,10 +20,28 @@ VALUES (098,'Syed','Zeeshan',23,'ECE'),
 	   (100,'Wasim','Akram',21,'ECE'),
 	   (102,'Mohammed','Afhaam',21,'ECE');
 
+
+-- clears table
 DELETE FROM students;
+TRUNCATE TABLE students;
+
+-- drops table
+DROP TABLE students;
 
 
 
+-- schema
+CREATE SCHEMA test;
+
+CREATE TABLE test.customers
+	AS SELECT * FROM customers;
+
+DROP TABLE test.customers;
+DROP SCHEMA test;
+
+
+
+-- copies data from file at path
 COPY students 
 FROM [PATH]
 DELIMITER ',' 
