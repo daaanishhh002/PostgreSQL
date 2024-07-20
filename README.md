@@ -23,7 +23,7 @@ These resources are mainly focused around being able to query data and are more 
 
 ## 🧑🏽‍🔧 Intermediate
 1. Aggregate Functions and Grouping
-2. Joins
+2. Joining Tables
 3. Sub Queries
 4. Window Functions
 5. Common Table Expressions
