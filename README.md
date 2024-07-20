@@ -1,8 +1,7 @@
 <h1 align="center">📚 PostgreSQL</h1>
-<p>
-    Welcome to my PostgreSQL repository, where I've curated files and resources from my learning journey. This collection spans SQL queries, database design principles, and advanced features exploration. Whether you're delving into transaction management, indexing strategies, or query optimization, these resources are tailored to enhance your proficiency in PostgreSQL. 
-    These resources are mainly focused around being able to query data and are likely to benefit Data Analysts and Data Scientists much more. 
-</p>
+
+Welcome to my PostgreSQL repository, where I've curated files and resources from my learning journey. This collection spans SQL queries, database design principles, and advanced features exploration. Whether you're delving into transaction management, indexing strategies, or query optimization, these resources are tailored to enhance your proficiency in PostgreSQL.  
+These resources are mainly focused around being able to query data and are likely to benefit Data Analysts and Data Scientists much more. 
 
 
 <p align='center'>
