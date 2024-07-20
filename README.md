@@ -10,29 +10,25 @@
 
 <h2>🗺️ Roadmap</h2>
 <p align='center'>
-  <img src="https://i.ytimg.com/vi/yMqldbY2AAg/maxresdefault.jpg" alt="roadmap" height=150/>
+  <img src="https://i.ytimg.com/vi/yMqldbY2AAg/maxresdefault.jpg" alt="roadmap"/>
 </p>
 
 
-## Basics
+## 🧑🏼‍🎓 Basics
 1. Creating Databases, Schemas and Tables
 2. Selecting, Ordering and Filtering
 3. Altering Tables
 4. Functions
-   - Mathematical
-   - String
-   - Date Time
-   - Nulls
 5. Data Type Conversion
 
-## Intermediate
+## 🧑🏽‍🔧 Intermediate
 1. Aggregate Functions and Grouping
 2. Joins
-3. Sub Querying
+3. Sub Queries
 4. Window Functions
 5. Common Table Expressions
 
-## Advanced
+## 🦾 Advanced
 1. Views and Index
 2. Data Control Language
 3. Transaction Control Language
