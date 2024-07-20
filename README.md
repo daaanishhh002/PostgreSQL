@@ -14,14 +14,14 @@ These resources are mainly focused around being able to query data and are more 
 </p>
 
 
-## 🧑🏼‍🎓 Basics
+## 👨🏻‍🎓 Basics
 1. Creating Databases, Schemas and Tables
 2. Selecting, Ordering and Filtering
 3. Altering Tables
 4. Functions
 5. Data Type Conversion
 
-## 🧑🏽‍🔧 Intermediate
+## 👨🏻‍🔧 Intermediate
 1. Aggregate Functions and Grouping
 2. Joining Tables
 3. Sub Queries
