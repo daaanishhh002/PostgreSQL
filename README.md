@@ -5,6 +5,7 @@ These resources are mainly focused around being able to query data and are more 
 
 
 <p align='center'>
+  <img src="https://w7.pngwing.com/pngs/167/148/png-transparent-microsoft-azure-sql-database-microsoft-sql-server-database-blue-text-logo.png" alt="sql" height=120/>
   <img src="https://miro.medium.com/v2/resize:fit:1220/0*epnKnkKuLx2RAajt" alt="postgresql" height=120/>
 </p>
 
