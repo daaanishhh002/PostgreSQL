@@ -9,7 +9,7 @@ These resources are mainly focused around being able to query data and are more 
   <img src="https://miro.medium.com/v2/resize:fit:1220/0*epnKnkKuLx2RAajt" alt="postgresql" height=120/>
 </p>
 
-<h2>🗺️ Roadmap</h2>
+<h1>🗺️ Roadmap</h1>
 <p align='center'>
   <img src="https://i.ytimg.com/vi/yMqldbY2AAg/maxresdefault.jpg" alt="roadmap"/>
 </p>
